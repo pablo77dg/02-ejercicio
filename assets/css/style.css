@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+}
+header{
+    background: blue;
+    height: 120px;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.logo{
+    width: 15%;
+    height: 120px;
+    background: red;
+}
+.menu-principal{
+    width: 70%;
+    height: 120px;
+    background: green;
+}
+.logo-inst{
+    width: 25%;
+    height: 120px;
+    background: aliceblue;
+}
+.logo-principal{
+    margin-top: 24px;
+    margin-left: 8px;
+}
+.logo-secundario{
+    margin-top: 30px;
+}
+.menu-nav{
+    float: right;
+}
+.menu-nav > ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu-nav > ul > li{
+    float: left;
+}
+.menu-nav > ul > li > a {
+    color: white;
+}
+
